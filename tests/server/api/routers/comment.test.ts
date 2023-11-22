@@ -1,11 +1,10 @@
-import {describe, expect, it} from '@jest/globals';
 import {
   BasicCommentSchema,
   BasicCommentType,
   DetailedCommentSchema,
   MutateCommentType
 } from '../../../../src/models/Comment';
-import {SortCommentByProperty, SortDirection, ThemeColor} from '../../../../src/utils/enums';
+import {SortCommentByProperty, SortDirection} from '../../../../src/utils/enums';
 import {
   comment1,
   comment2,
@@ -20,14 +19,14 @@ import {
   user1,
   user2,
   users
-} from './utils/mockData';
-import {getTestCaller, testPrismaClient} from './utils/testUtils';
+} from '../../mocks/data';
+import {getTestCaller, testPrismaClient} from '../../mocks/utils';
 
 describe('commentRouter', () => {
   let caller: ReturnType<typeof getTestCaller>;
 
   beforeEach(async () => {
-    caller = getTestCaller({...user2, themeColor: user2.themeColor as ThemeColor});
+    caller = getTestCaller(user2);
 
     await testPrismaClient.$connect();
     await testPrismaClient.user.createMany({data: users});

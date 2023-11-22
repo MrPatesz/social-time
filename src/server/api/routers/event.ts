@@ -1,4 +1,4 @@
-import {PrismaClient} from '@prisma/client';
+import {Prisma, PrismaClient} from '@prisma/client';
 import {TRPCError} from '@trpc/server';
 import {z} from 'zod';
 import {
@@ -13,7 +13,6 @@ import {PaginateEventsSchema} from '../../../models/pagination/PaginateEvents';
 import {IdSchema} from '../../../models/Utils';
 import {InvalidateEvent, PusherChannel} from '../../../utils/enums';
 import {createTRPCRouter, protectedProcedure} from '../trpc';
-import {Prisma} from '.prisma/client';
 
 const getEventDistance = async (prisma: PrismaClient, eventId: number, location: CoordinatesType) => {
   const [{distanceInKilometers}] = await prisma.$queryRaw<[{

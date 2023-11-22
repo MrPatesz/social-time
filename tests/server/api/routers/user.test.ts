@@ -1,14 +1,13 @@
-import {describe, expect, it} from '@jest/globals';
 import {DetailedUserSchema, ProfileSchema, UpdateProfileSchema} from '../../../../src/models/User';
 import {ThemeColor} from '../../../../src/utils/enums';
-import {user1, user2, users} from './utils/mockData';
-import {getTestCaller, testPrismaClient} from './utils/testUtils';
+import {user1, user2, users} from '../../mocks/data';
+import {getTestCaller, testPrismaClient} from '../../mocks/utils';
 
 describe('userRouter', () => {
   let caller: ReturnType<typeof getTestCaller>;
 
   beforeEach(async () => {
-    caller = getTestCaller({...user1, themeColor: user1.themeColor as ThemeColor});
+    caller = getTestCaller(user1);
 
     await testPrismaClient.$connect();
     await testPrismaClient.user.createMany({data: users});
@@ -56,7 +55,6 @@ describe('userRouter', () => {
         ...user1,
         name: 'user1_update_test',
         introduction: 'user1_introduction',
-        image: 'https://www.user1-image.com',
         themeColor: ThemeColor.ORANGE,
         location: null,
       });
@@ -82,5 +80,4 @@ describe('userRouter', () => {
       await expect(updateCall()).rejects.toThrow();
     });
   });
-  // TODO describe("getPaginatedUsers", () => {});
 });

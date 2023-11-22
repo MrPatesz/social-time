@@ -8,7 +8,7 @@ import {
   UpdateProfileType
 } from '../../../models/User';
 import {createTRPCRouter, protectedProcedure} from '../trpc';
-import {Prisma} from '.prisma/client';
+import {Prisma} from '@prisma/client';
 import {InvalidateEvent, PusherChannel} from '../../../utils/enums';
 
 export const userRouter = createTRPCRouter({

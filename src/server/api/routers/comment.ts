@@ -2,7 +2,7 @@ import {z} from 'zod';
 import {BasicCommentSchema, DetailedCommentSchema, MutateCommentSchema} from '../../../models/Comment';
 import {InvalidateEvent, PusherChannel, SortCommentByProperty, SortDirection} from '../../../utils/enums';
 import {createTRPCRouter, protectedProcedure} from '../trpc';
-import {Prisma} from '.prisma/client';
+import {Prisma} from '@prisma/client';
 import {IdSchema} from '../../../models/Utils';
 
 export const commentRouter = createTRPCRouter({

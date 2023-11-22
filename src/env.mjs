@@ -10,6 +10,7 @@ const server = z.object({
   NODE_ENV: z.enum(['development', 'test', 'production']),
   // Prisma
   POSTGRES_PRISMA_URL: z.string().url(),
+  TESTING_DATABASE_URL: z.string().url().optional(),
   // Next Auth
   NEXTAUTH_URL: z.preprocess(
     // This makes Vercel deployments not fail if you don't set NEXTAUTH_URL
@@ -68,6 +69,7 @@ const processEnv = {
   NODE_ENV: process.env.NODE_ENV,
   // Prisma
   POSTGRES_PRISMA_URL: process.env.POSTGRES_PRISMA_URL,
+  TESTING_DATABASE_URL: process.env.TESTING_DATABASE_URL,
   // Next Auth
   NEXTAUTH_URL: process.env.NEXTAUTH_URL,
   NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,

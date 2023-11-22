@@ -1,7 +1,7 @@
 import {z} from 'zod';
 import {BasicMessageSchema, CreateMessageSchema} from '../../../models/Message';
 import {createTRPCRouter, protectedProcedure} from '../trpc';
-import {Prisma} from '.prisma/client';
+import {Prisma} from '@prisma/client';
 import {IdSchema} from '../../../models/Utils';
 import {InvalidateEvent, PusherChannel} from '../../../utils/enums';
 import {TRPCError} from '@trpc/server';

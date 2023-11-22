@@ -18,13 +18,16 @@ export const CollapsibleCard: FunctionComponent<{
       withBorder
       sx={theme => ({backgroundColor: getBackgroundColor(theme)})}
     >
-      <Group position="apart">
+      <Group
+        position="apart"
+        style={{cursor: 'pointer'}}
+        onClick={() => setOpened(o => !o)}
+      >
         <Text color="dimmed">{label}</Text>
         <ActionIcon
           title={t('application.collapse')}
           size="xs"
           variant="transparent"
-          onClick={() => setOpened(o => !o)}
         >
           {opened ? <IconChevronUp/> : <IconChevronDown/>}
         </ActionIcon>

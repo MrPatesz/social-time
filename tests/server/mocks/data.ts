@@ -1,5 +1,5 @@
 import {Comment, Event, Location, User} from '@prisma/client';
-import {ThemeColor} from '../../../../../src/utils/enums';
+import {ThemeColor} from '../../../src/utils/enums';
 
 export const user1: User = {
   id: '101',
