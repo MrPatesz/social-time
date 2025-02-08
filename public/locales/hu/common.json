@@ -1,438 +1,438 @@
 {
-  "application": {
-    "name": "Social Time",
-    "shortName": "ST",
-    "logout": "Kijelentkezés",
-    "colorScheme": "Színséma váltása",
-    "language": "Nyelv váltása",
-    "menu": "Menü",
-    "feed": "Folyam",
-    "share": "Megosztás",
-    "shareDescription": "{{username}} megosztotta veled ezt a linket a Social Time-ról!",
-    "someone": "Valaki",
-    "upcomingEvents": "A következő 24 órában {{count}} eseményed lesz.",
-    "collapse": "Kinyit/összecsuk",
-    "install": "Social Time telepítése"
-  },
-  "welcomePage": {
-    "welcome": "Üdvözöl a Social Time!",
-    "description": "A Social Time egy közösségi média alkalmazás, amelyben a felhasználók csoportokat alkothatnak és eseményeket szervezhetnek.",
-    "login": "Bejelentkezés"
-  },
-  "navbar": {
-    "feed": {
-      "label": "Folyam",
-      "title": "Itt láthatod a legújabb eseményeket."
+    "application": {
+        "name": "Social Time",
+        "shortName": "ST",
+        "logout": "Kijelentkezés",
+        "colorScheme": "Színséma váltása",
+        "language": "Nyelv váltása",
+        "menu": "Menü",
+        "feed": "Folyam",
+        "share": "Megosztás",
+        "shareDescription": "{{username}} megosztotta veled ezt a linket a Social Time-ról!",
+        "someone": "Valaki",
+        "upcomingEvents": "A következő 24 órában {{count}} eseményed lesz.",
+        "collapse": "Kinyit/összecsuk",
+        "install": "Social Time telepítése"
     },
-    "calendar": {
-      "label": "Naptár",
-      "title": "Itt láthatod a részt vett eseményeidet a naptárban."
+    "welcomePage": {
+        "welcome": "Üdvözöl a Social Time!",
+        "description": "A Social Time egy közösségi média alkalmazás, amelyben a felhasználók csoportokat alkothatnak és eseményeket szervezhetnek.",
+        "login": "Bejelentkezés"
     },
-    "map": {
-      "label": "Térkép",
-      "title": "Itt láthatod a közeli eseményeket a térképen."
-    },
-    "events": {
-      "label": "Események",
-      "title": "Itt rendezhetsz, szűrhetsz, kereshetsz eseményeket."
-    },
-    "groups": {
-      "label": "Csoportok",
-      "title": "Itt rendezhetsz, szűrhetsz, kereshetsz csoportokat."
-    },
-    "users": {
-      "label": "Felhasználók",
-      "title": "Itt rendezhetsz, szűrhetsz, kereshetsz felhasználókat."
-    },
-    "controlPanel": {
-      "label": "Vezérlőpult",
-      "title": "Itt kezelheted az eseményeidet, csoportjaidat és kommentjeidet."
-    },
-    "profile": {
-      "title": "Itt módosíthatod a felhasználói adataidat."
-    }
-  },
-  "button": {
-    "logout": "Kijelentkezés",
-    "confirm": "Megerősítés",
-    "cancel": "Mégse",
-    "reset": "Visszaállít",
-    "submit": "Beküld",
-    "richText": "Szöveg formázása"
-  },
-  "resource": {
-    "calendar": "Naptár",
-    "comments": "Kommentek",
-    "eventDetails": "Esemény részletek",
-    "feed": "Hírfolyam",
-    "events": "Események",
-    "myEvents": "Eseményeim",
-    "profile": "Profil",
-    "userDetails": "Felhasználó részletek",
-    "users": "Felhasználók",
-    "groups": "Csoportok",
-    "groupDetails": "Csoport részletek",
-    "chat": "Csoport csevegés",
-    "rating": "Értékelés",
-    "freeIntervals": "Szabad intervallumok"
-  },
-  "notification": {
-    "message": {
-      "sent": {
-        "title": "Üzenet elküldve!",
-        "message": "Új üzenetet küldtél a csoportba."
-      }
-    },
-    "group": {
-      "create": {
-        "title": "Csoport létrehozva!",
-        "message": "Új csoport jött létre."
-      },
-      "delete": {
-        "title": "Csoport törölve!",
-        "message": "A csoport törlődött."
-      },
-      "update": {
-        "title": "Csoport módosítva!",
-        "message": "A csoport módosult."
-      },
-      "join": {
-        "title": "Sikeres belépés!",
-        "message": "Beléptél ebbe a csoportba."
-      },
-      "leave": {
-        "title": "Sikeres kilépés!",
-        "message": "Kiléptél ebből a csoportból."
-      }
-    },
-    "event": {
-      "create": {
-        "title": "Esemény létrehozva!",
-        "message": "Új esemény jött létre."
-      },
-      "delete": {
-        "title": "Esemény törölve!",
-        "message": "Az esemény törlődött."
-      },
-      "update": {
-        "title": "Esemény módosítva!",
-        "message": "Az esemény módosult."
-      },
-      "failedToUpdate": {
-        "title": "Sikertelen az esemény módosítása!",
-        "message": "Az esemény nem kezdődhet a múltban!"
-      },
-      "participation": {
-        "title": "Részvétel módosítva!",
-        "message": "A részvételi státuszod múdosult."
-      },
-      "image": {
-        "success": {
-          "title": "Esemény képe módosítva!",
-          "message": "Az esemény képe módosult."
+    "navbar": {
+        "feed": {
+            "label": "Folyam",
+            "title": "Itt láthatod a legújabb eseményeket."
         },
-        "error": {
-          "title": "Sikertelen az esemény képének frissítése!",
-          "message": "A feltöltött kép meghaladja a 2MB-os limitet."
-        }
-      }
-    },
-    "comment": {
-      "delete": {
-        "title": "Komment törölve!",
-        "message": "A komment törlődött."
-      },
-      "create": {
-        "title": "Komment létrehozva!",
-        "message": "Új komment jött létre."
-      },
-      "update": {
-        "title": "Komment módosítva!",
-        "message": "A komment módosult."
-      }
-    },
-    "profile": {
-      "update": {
-        "title": "Profil módosítva!",
-        "message": "A profilod módosult."
-      },
-      "image": {
-        "success": {
-          "title": "Profilkép módosítva!",
-          "message": "A profilképed módosult."
+        "calendar": {
+            "label": "Naptár",
+            "title": "Itt láthatod a részt vett eseményeidet a naptárban."
         },
-        "error": {
-          "title": "Sikertelen a profilkép frissítése!",
-          "message": "A feltöltött kép meghaladja az 1MB-os limitet."
+        "map": {
+            "label": "Térkép",
+            "title": "Itt láthatod a közeli eseményeket a térképen."
+        },
+        "events": {
+            "label": "Események",
+            "title": "Itt rendezhetsz, szűrhetsz, kereshetsz eseményeket."
+        },
+        "groups": {
+            "label": "Csoportok",
+            "title": "Itt rendezhetsz, szűrhetsz, kereshetsz csoportokat."
+        },
+        "users": {
+            "label": "Felhasználók",
+            "title": "Itt rendezhetsz, szűrhetsz, kereshetsz felhasználókat."
+        },
+        "controlPanel": {
+            "label": "Vezérlőpult",
+            "title": "Itt kezelheted az eseményeidet, csoportjaidat és kommentjeidet."
+        },
+        "profile": {
+            "title": "Itt módosíthatod a felhasználói adataidat."
         }
-      }
     },
-    "joinRequest": {
-      "create": {
-        "title": "Sikeres jelentkezés!",
-        "message": "Létrehoztál egy csatlakozási kérelmet."
-      },
-      "delete": {
-        "title": "Jelentkezés eltávolítva!",
-        "message": "Eltávolítottad a csatlakozási belépési kérelmedet."
-      },
-      "accept": {
-        "title": "Felhasználó felvéve!",
-        "message": "A felhasználó már a csoport tagja."
-      },
-      "decline": {
-        "title": "Felhasználó elutasítva!",
-        "message": "A csatlakozási kérelem el lett utasítva."
-      }
+    "button": {
+        "logout": "Kijelentkezés",
+        "confirm": "Megerősítés",
+        "cancel": "Mégse",
+        "reset": "Visszaállít",
+        "submit": "Beküld",
+        "richText": "Szöveg formázása"
+    },
+    "resource": {
+        "calendar": "Naptár",
+        "comments": "Kommentek",
+        "eventDetails": "Esemény részletek",
+        "feed": "Hírfolyam",
+        "events": "Események",
+        "myEvents": "Eseményeim",
+        "profile": "Profil",
+        "userDetails": "Felhasználó részletek",
+        "users": "Felhasználók",
+        "groups": "Csoportok",
+        "groupDetails": "Csoport részletek",
+        "chat": "Csoport csevegés",
+        "rating": "Értékelés",
+        "freeIntervals": "Szabad intervallumok"
+    },
+    "notification": {
+        "message": {
+            "sent": {
+                "title": "Üzenet elküldve!",
+                "message": "Új üzenetet küldtél a csoportba."
+            }
+        },
+        "group": {
+            "create": {
+                "title": "Csoport létrehozva!",
+                "message": "Új csoport jött létre."
+            },
+            "delete": {
+                "title": "Csoport törölve!",
+                "message": "A csoport törlődött."
+            },
+            "update": {
+                "title": "Csoport módosítva!",
+                "message": "A csoport módosult."
+            },
+            "join": {
+                "title": "Sikeres belépés!",
+                "message": "Beléptél ebbe a csoportba."
+            },
+            "leave": {
+                "title": "Sikeres kilépés!",
+                "message": "Kiléptél ebből a csoportból."
+            }
+        },
+        "event": {
+            "create": {
+                "title": "Esemény létrehozva!",
+                "message": "Új esemény jött létre."
+            },
+            "delete": {
+                "title": "Esemény törölve!",
+                "message": "Az esemény törlődött."
+            },
+            "update": {
+                "title": "Esemény módosítva!",
+                "message": "Az esemény módosult."
+            },
+            "failedToUpdate": {
+                "title": "Sikertelen az esemény módosítása!",
+                "message": "Az esemény nem kezdődhet a múltban!"
+            },
+            "participation": {
+                "title": "Részvétel módosítva!",
+                "message": "A részvételi státuszod múdosult."
+            },
+            "image": {
+                "success": {
+                    "title": "Esemény képe módosítva!",
+                    "message": "Az esemény képe módosult."
+                },
+                "error": {
+                    "title": "Sikertelen az esemény képének frissítése!",
+                    "message": "A feltöltött kép meghaladja a 2MB-os limitet."
+                }
+            }
+        },
+        "comment": {
+            "delete": {
+                "title": "Komment törölve!",
+                "message": "A komment törlődött."
+            },
+            "create": {
+                "title": "Komment létrehozva!",
+                "message": "Új komment jött létre."
+            },
+            "update": {
+                "title": "Komment módosítva!",
+                "message": "A komment módosult."
+            }
+        },
+        "profile": {
+            "update": {
+                "title": "Profil módosítva!",
+                "message": "A profilod módosult."
+            },
+            "image": {
+                "success": {
+                    "title": "Profilkép módosítva!",
+                    "message": "A profilképed módosult."
+                },
+                "error": {
+                    "title": "Sikertelen a profilkép frissítése!",
+                    "message": "A feltöltött kép meghaladja az 1MB-os limitet."
+                }
+            }
+        },
+        "joinRequest": {
+            "create": {
+                "title": "Sikeres jelentkezés!",
+                "message": "Létrehoztál egy csatlakozási kérelmet."
+            },
+            "delete": {
+                "title": "Jelentkezés eltávolítva!",
+                "message": "Eltávolítottad a csatlakozási belépési kérelmedet."
+            },
+            "accept": {
+                "title": "Felhasználó felvéve!",
+                "message": "A felhasználó már a csoport tagja."
+            },
+            "decline": {
+                "title": "Felhasználó elutasítva!",
+                "message": "A csatlakozási kérelem el lett utasítva."
+            }
+        }
+    },
+    "modal": {
+        "users": {
+            "members": "Tagok",
+            "participants": "Résztvevők"
+        },
+        "group": {
+            "edit": "Csoport szerkesztése",
+            "create": "Csoport létrehozása",
+            "delete": {
+                "title": "Csoport rörlése",
+                "message": "Biztosan törölni szeretnéd ezt a csoportot?"
+            }
+        },
+        "event": {
+            "edit": "Esemény szerkesztése",
+            "create": "Esemény létrehozása",
+            "delete": {
+                "title": "Esemény törlése",
+                "message": "Biztosan törölni szeretnéd ezt az eseményt?"
+            }
+        },
+        "comment": {
+            "create": "Komment létrehozása",
+            "edit": "Komment szerkesztése",
+            "delete": {
+                "title": "Komment törlése",
+                "message": "Biztosan törölni szeretnéd ezt a kommentet?"
+            }
+        },
+        "edit": "{{propertyName}} szerkesztése"
+    },
+    "common": {
+        "name": "Név",
+        "location": "Helyszín",
+        "price": "Ár",
+        "date": "Dátum",
+        "orderBy": "Rendezés",
+        "free": "Ingyenes"
+    },
+    "myEvents": {
+        "dateTime": "Időpont",
+        "limit": "Limit",
+        "actions": "Kezelés",
+        "noRecords": "Nem található esemény",
+        "recordsPerPage": "Oldalankénti események száma",
+        "archive": "Archívum",
+        "creator": "Létrehozó",
+        "group": "Csoport"
+    },
+    "groupTable": {
+        "noRecords": "Nem található csoport",
+        "recordsPerPage": "Oldalankénti csoportok száma",
+        "createdAt": "Létrehozás dátuma",
+        "colors": "Csoport színek",
+        "visibility": "Láthatóság"
+    },
+    "commentTable": {
+        "noRecords": "Nem található komment",
+        "recordsPerPage": "Oldalankénti kommentek száma",
+        "postedAt": "Közzététel",
+        "message": "Üzenet",
+        "event": "Esemény"
+    },
+    "userTable": {
+        "noRecords": "Nem található felhasználó",
+        "recordsPerPage": "Oldalankénti felhasználók száma",
+        "image": "Profilkép"
+    },
+    "filterEvents": {
+        "search": "Keresés név alapján",
+        "limited": "Limitált",
+        "filter": "Filterezés"
+    },
+    "usersPage": {
+        "search": "Keresés név alapján"
+    },
+    "userDetails": {
+        "createdEvents": "Létrehozott események",
+        "participatedEvents": "Részt vett események"
+    },
+    "groupDetails": {
+        "join": "Csatlakozás a csoporthoz",
+        "leave": "Kilépés a csoportból",
+        "private": "Ez a csoport privát",
+        "public": "Ez a csoport publikus"
+    },
+    "eventDetails": {
+        "participate": "Részvétel",
+        "removeParticipation": "Részvétel eltávolítása",
+        "participants": "Résztvevők",
+        "modifyImages": "Képek módosítása"
+    },
+    "queryComponent": {
+        "error": "{{resourceName}} betöltése közben hiba történt!"
+    },
+    "themeColorPicker": {
+        "label": "Téma szín"
+    },
+    "color": {
+        "red": "Piros",
+        "pink": "Rózsaszín",
+        "grape": "Szőlő",
+        "violet": "Ibolya",
+        "indigo": "Indigó",
+        "blue": "Kék",
+        "cyan": "Cián",
+        "teal": "Zöldeskék",
+        "green": "Zöld",
+        "lime": "Lime",
+        "yellow": "Sárga",
+        "orange": "Narancssárga"
+    },
+    "profileForm": {
+        "introduction": "Bemutatkozás",
+        "displayName": {
+            "error": "Név kötelező!",
+            "label": "Név",
+            "placeholder": "A többi felhasználó ezt a nevet fogja látni."
+        },
+        "location": {
+            "placeholder": "Hol tartózkodsz?",
+            "description": "Így szűrhetsz ki távoli eseményeket. Csak te láthatod ezt az információt."
+        },
+        "image": {
+            "label": "Profilkép",
+            "placeholder": "Itt állíthatod be a profilképedet.",
+            "error": "Hibás kép URL!",
+            "button": "Kép választása",
+            "allowedContent": "Kép ({{size}}MB)",
+            "remove": {
+                "title": "Kép eltávolítása",
+                "message": "El szeretnéd távolítani a profilképedet?"
+            }
+        },
+        "delete": {
+            "title": "Profil törlése",
+            "message": "Ez véglegesen eltávolítja adatbázisunkból a profilod és az összes ahhoz kapcsolódó adatot.",
+            "warning": "Törlés után az adatok már nem állíthatók vissza!",
+            "dangerZone": "Veszélyzóna"
+        }
+    },
+    "mapComponent": {
+        "error": "Térkép betöltése közben hiba történt!"
+    },
+    "locationPicker": {
+        "error": "Helyek betöltése közben hiba történt!",
+        "remove": "Tartózkodás eltávolítása",
+        "residence": "Tartózkodás",
+        "place": "Hely"
+    },
+    "intervalPicker": {
+        "start": "Kezdés",
+        "end": "Vége"
+    },
+    "groupForm": {
+        "name": {
+            "error": "Név kötelező!",
+            "placeholder": "Mi a csoport neve?"
+        },
+        "description": {
+            "label": "Leírás",
+            "placeholder": "Mutasd be a csoportot."
+        },
+        "colors": {
+            "error": "Csoport színeinek különböznie kell!"
+        },
+        "isPrivate": {
+            "label": "Privát",
+            "description": "A létrehozónak el kell fogadnia minden felhasználó belépési kérelmét amikor a csoport privát."
+        }
+    },
+    "eventForm": {
+        "group": {
+            "label": "Csoport",
+            "placeholder": "Mely csoport eseménye lesz?"
+        },
+        "name": {
+            "error": "Név kötelező!",
+            "placeholder": "Mi az esemény neve?"
+        },
+        "location": {
+            "error": "Hely kötelező!",
+            "placeholder": "Hol lesz megtartva?"
+        },
+        "start": {
+            "error": "Hibás kezdés!"
+        },
+        "end": {
+            "error": "Hibás vége!"
+        },
+        "description": {
+            "label": "Leírás",
+            "placeholder": "Mik a tervek?"
+        },
+        "price": {
+            "label": "Ár",
+            "placeholder": "Fizetniük kell érte a részvevőknek?"
+        },
+        "limit": {
+            "label": "Limit",
+            "placeholder": "Maximum hányan vehetnek részt rajta?"
+        }
+    },
+    "commentForm": {
+        "addComment": "Kommentelés..."
+    },
+    "messageForm": {
+        "addMessage": "Üzenetküldés..."
+    },
+    "richTextDisplay": {
+        "showLabel": "Mutass többet",
+        "hideLabel": "Mutass kevesebbet"
+    },
+    "feedPage": {
+        "maxDistance": "Maximum távolság:",
+        "useMaxDistance": "Maximum távolság használata",
+        "slider": "Maximum távolság",
+        "includeArchive": "Archívum mutatása",
+        "myGroupsOnly": "Csak a csoportjaim"
+    },
+    "calendarPage": {
+        "today": "Ma",
+        "month": "Hónap",
+        "week": "Hét",
+        "export": "Exportálás",
+        "iCalExport": "iCal exportálás",
+        "interval": {
+            "label": "Intervallum",
+            "error": "Hibás intervallum!"
+        },
+        "eventCount": "{{count}} esemény"
+    },
+    "intervalRecommender": {
+        "label": "Intervallum ajánló",
+        "searchInterval": "Keresési intervallum"
+    },
+    "usersComponent": {
+        "full": "Az esemény betelt!"
+    },
+    "joinRequestsDialog": {
+        "resourceName": "Csatlakozási kérelmek",
+        "accept": "Felvesz",
+        "decline": "Elutasít",
+        "review": "Csatlakozási kérelmek bírálása"
+    },
+    "mapPage": {
+        "absentPermission1": "A funkció használatához adj engedélyt a tartózkodási helyedhez vagy állítsd be a Tartózkodásodat a",
+        "absentPermission2": "odon!"
     }
-  },
-  "modal": {
-    "users": {
-      "members": "Tagok",
-      "participants": "Résztvevők"
-    },
-    "group": {
-      "edit": "Csoport szerkesztése",
-      "create": "Csoport létrehozása",
-      "delete": {
-        "title": "Csoport rörlése",
-        "message": "Biztosan törölni szeretnéd ezt a csoportot?"
-      }
-    },
-    "event": {
-      "edit": "Esemény szerkesztése",
-      "create": "Esemény létrehozása",
-      "delete": {
-        "title": "Esemény törlése",
-        "message": "Biztosan törölni szeretnéd ezt az eseményt?"
-      }
-    },
-    "comment": {
-      "create": "Komment létrehozása",
-      "edit": "Komment szerkesztése",
-      "delete": {
-        "title": "Komment törlése",
-        "message": "Biztosan törölni szeretnéd ezt a kommentet?"
-      }
-    },
-    "edit": "{{propertyName}} szerkesztése"
-  },
-  "common": {
-    "name": "Név",
-    "location": "Helyszín",
-    "price": "Ár",
-    "date": "Dátum",
-    "orderBy": "Rendezés",
-    "free": "Ingyenes"
-  },
-  "myEvents": {
-    "dateTime": "Időpont",
-    "limit": "Limit",
-    "actions": "Kezelés",
-    "noRecords": "Nem található esemény",
-    "recordsPerPage": "Oldalankénti események száma",
-    "archive": "Archívum",
-    "creator": "Létrehozó",
-    "group": "Csoport"
-  },
-  "groupTable": {
-    "noRecords": "Nem található csoport",
-    "recordsPerPage": "Oldalankénti csoportok száma",
-    "createdAt": "Létrehozás dátuma",
-    "colors": "Csoport színek",
-    "visibility": "Láthatóság"
-  },
-  "commentTable": {
-    "noRecords": "Nem található komment",
-    "recordsPerPage": "Oldalankénti kommentek száma",
-    "postedAt": "Közzététel",
-    "message": "Üzenet",
-    "event": "Esemény"
-  },
-  "userTable": {
-    "noRecords": "Nem található felhasználó",
-    "recordsPerPage": "Oldalankénti felhasználók száma",
-    "image": "Profilkép"
-  },
-  "filterEvents": {
-    "search": "Keresés név alapján",
-    "limited": "Limitált",
-    "filter": "Filterezés"
-  },
-  "usersPage": {
-    "search": "Keresés név alapján"
-  },
-  "userDetails": {
-    "createdEvents": "Létrehozott események",
-    "participatedEvents": "Részt vett események"
-  },
-  "groupDetails": {
-    "join": "Csatlakozás a csoporthoz",
-    "leave": "Kilépés a csoportból",
-    "private": "Ez a csoport privát",
-    "public": "Ez a csoport publikus"
-  },
-  "eventDetails": {
-    "participate": "Részvétel",
-    "removeParticipation": "Részvétel eltávolítása",
-    "participants": "Résztvevők",
-    "modifyImages": "Képek módosítása"
-  },
-  "queryComponent": {
-    "error": "{{resourceName}} betöltése közben hiba történt!"
-  },
-  "themeColorPicker": {
-    "label": "Téma szín"
-  },
-  "color": {
-    "red": "Piros",
-    "pink": "Rózsaszín",
-    "grape": "Szőlő",
-    "violet": "Ibolya",
-    "indigo": "Indigó",
-    "blue": "Kék",
-    "cyan": "Cián",
-    "teal": "Zöldeskék",
-    "green": "Zöld",
-    "lime": "Lime",
-    "yellow": "Sárga",
-    "orange": "Narancssárga"
-  },
-  "profileForm": {
-    "introduction": "Bemutatkozás",
-    "displayName": {
-      "error": "Név kötelező!",
-      "label": "Név",
-      "placeholder": "A többi felhasználó ezt a nevet fogja látni."
-    },
-    "location": {
-      "placeholder": "Hol tartózkodsz?",
-      "description": "Így szűrhetsz ki távoli eseményeket. Csak te láthatod ezt az információt."
-    },
-    "image": {
-      "label": "Profilkép",
-      "placeholder": "Itt állíthatod be a profilképedet.",
-      "error": "Hibás kép URL!",
-      "button": "Kép választása",
-      "allowedContent": "Kép ({{size}}MB)",
-      "remove": {
-        "title": "Kép eltávolítása",
-        "message": "El szeretnéd távolítani a profilképedet?"
-      }
-    },
-    "delete": {
-      "title": "Profil törlése",
-      "message": "Ez véglegesen eltávolítja adatbázisunkból a profilod és az összes ahhoz kapcsolódó adatot.",
-      "warning": "Törlés után az adatok már nem állíthatók vissza!",
-      "dangerZone": "Veszélyzóna"
-    }
-  },
-  "mapComponent": {
-    "error": "Térkép betöltése közben hiba történt!"
-  },
-  "locationPicker": {
-    "error": "Helyek betöltése közben hiba történt!",
-    "remove": "Tartózkodás eltávolítása",
-    "residence": "Tartózkodás",
-    "place": "Hely"
-  },
-  "intervalPicker": {
-    "start": "Kezdés",
-    "end": "Vége"
-  },
-  "groupForm": {
-    "name": {
-      "error": "Név kötelező!",
-      "placeholder": "Mi a csoport neve?"
-    },
-    "description": {
-      "label": "Leírás",
-      "placeholder": "Mutasd be a csoportot."
-    },
-    "colors": {
-      "error": "Csoport színeinek különböznie kell!"
-    },
-    "isPrivate": {
-      "label": "Privát",
-      "description": "A létrehozónak el kell fogadnia minden felhasználó belépési kérelmét amikor a csoport privát."
-    }
-  },
-  "eventForm": {
-    "group": {
-      "label": "Csoport",
-      "placeholder": "Mely csoport eseménye lesz?"
-    },
-    "name": {
-      "error": "Név kötelező!",
-      "placeholder": "Mi az esemény neve?"
-    },
-    "location": {
-      "error": "Hely kötelező!",
-      "placeholder": "Hol lesz megtartva?"
-    },
-    "start": {
-      "error": "Hibás kezdés!"
-    },
-    "end": {
-      "error": "Hibás vége!"
-    },
-    "description": {
-      "label": "Leírás",
-      "placeholder": "Mik a tervek?"
-    },
-    "price": {
-      "label": "Ár",
-      "placeholder": "Fizetniük kell érte a részvevőknek?"
-    },
-    "limit": {
-      "label": "Limit",
-      "placeholder": "Maximum hányan vehetnek részt rajta?"
-    }
-  },
-  "commentForm": {
-    "addComment": "Kommentelés..."
-  },
-  "messageForm": {
-    "addMessage": "Üzenetküldés..."
-  },
-  "richTextDisplay": {
-    "showLabel": "Mutass többet",
-    "hideLabel": "Mutass kevesebbet"
-  },
-  "feedPage": {
-    "maxDistance": "Maximum távolság:",
-    "useMaxDistance": "Maximum távolság használata",
-    "slider": "Maximum távolság",
-    "includeArchive": "Archívum mutatása",
-    "myGroupsOnly": "Csak a csoportjaim"
-  },
-  "calendarPage": {
-    "today": "Ma",
-    "month": "Hónap",
-    "week": "Hét",
-    "export": "Exportálás",
-    "iCalExport": "iCal exportálás",
-    "interval": {
-      "label": "Intervallum",
-      "error": "Hibás intervallum!"
-    },
-    "eventCount": "{{count}} esemény"
-  },
-  "intervalRecommender": {
-    "label": "Intervallum ajánló",
-    "searchInterval": "Keresési intervallum"
-  },
-  "usersComponent": {
-    "full": "Az esemény betelt!"
-  },
-  "joinRequestsDialog": {
-    "resourceName": "Csatlakozási kérelmek",
-    "accept": "Felvesz",
-    "decline": "Elutasít",
-    "review": "Csatlakozási kérelmek bírálása"
-  },
-  "mapPage": {
-    "absentPermission1": "A funkció használatához adj engedélyt a tartózkodási helyedhez vagy állítsd be a Tartózkodásodat a",
-    "absentPermission2": "odon!"
-  }
 }

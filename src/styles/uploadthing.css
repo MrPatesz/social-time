@@ -1,3 +1,3 @@
-.upload-thing > *[data-ut-element="button"][data-state="uploading"]::after {
+.upload-thing > *[data-ut-element='button'][data-state='uploading']::after {
     background-color: grey;
 }

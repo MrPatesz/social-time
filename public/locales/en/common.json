@@ -1,438 +1,438 @@
 {
-  "application": {
-    "name": "Social Time",
-    "shortName": "ST",
-    "logout": "Logout",
-    "colorScheme": "Change Color Scheme",
-    "language": "Change Language",
-    "menu": "Menu",
-    "feed": "Feed",
-    "share": "Share",
-    "shareDescription": "{{username}} shared this link with you from Social Time!",
-    "someone": "Someone",
-    "upcomingEvents": "You have {{count}} upcoming event{{plural}} in the next 24 hours.",
-    "collapse": "Open/Collapse",
-    "install": "Install Social Time"
-  },
-  "welcomePage": {
-    "welcome": "Welcome to Social Time!",
-    "description": "Social Time is a social media application in which users can form groups and organize events.",
-    "login": "Login"
-  },
-  "navbar": {
-    "feed": {
-      "label": "Feed",
-      "title": "Here you can see the latest events."
+    "application": {
+        "name": "Social Time",
+        "shortName": "ST",
+        "logout": "Logout",
+        "colorScheme": "Change Color Scheme",
+        "language": "Change Language",
+        "menu": "Menu",
+        "feed": "Feed",
+        "share": "Share",
+        "shareDescription": "{{username}} shared this link with you from Social Time!",
+        "someone": "Someone",
+        "upcomingEvents": "You have {{count}} upcoming event{{plural}} in the next 24 hours.",
+        "collapse": "Open/Collapse",
+        "install": "Install Social Time"
     },
-    "calendar": {
-      "label": "Calendar",
-      "title": "Here you can view your participated events in the calendar."
+    "welcomePage": {
+        "welcome": "Welcome to Social Time!",
+        "description": "Social Time is a social media application in which users can form groups and organize events.",
+        "login": "Login"
     },
-    "map": {
-      "label": "Map",
-      "title": "Here you can view nearby events on the map."
-    },
-    "events": {
-      "label": "Events",
-      "title": "Here you can sort, filter, search events."
-    },
-    "groups": {
-      "label": "Groups",
-      "title": "Here you can sort, filter, search groups."
-    },
-    "users": {
-      "label": "Users",
-      "title": "Here you can sort, filter, search users."
-    },
-    "controlPanel": {
-      "label": "Control Panel",
-      "title": "Here you can manage your events, groups and comments."
-    },
-    "profile": {
-      "title": "Here you can modify your user data."
-    }
-  },
-  "button": {
-    "logout": "Logout",
-    "confirm": "Confirm",
-    "cancel": "Cancel",
-    "reset": "Reset",
-    "submit": "Submit",
-    "richText": "Format Text"
-  },
-  "resource": {
-    "calendar": "Calendar",
-    "comments": "Comments",
-    "eventDetails": "Event Details",
-    "feed": "Feed",
-    "events": "Events",
-    "myEvents": "My Events",
-    "profile": "Profile",
-    "userDetails": "User Details",
-    "users": "Users",
-    "groups": "Groups",
-    "groupDetails": "Group Details",
-    "chat": "Group Chat",
-    "rating": "Rating",
-    "freeIntervals": "Free Intervals"
-  },
-  "notification": {
-    "message": {
-      "sent": {
-        "title": "Message Sent!",
-        "message": "You sent a new message to the group."
-      }
-    },
-    "group": {
-      "create": {
-        "title": "Created group!",
-        "message": "A new group has been created."
-      },
-      "delete": {
-        "title": "Deleted group!",
-        "message": "The group has been deleted."
-      },
-      "update": {
-        "title": "Updated group!",
-        "message": "The group has been modified."
-      },
-      "join": {
-        "title": "Joined successfully!",
-        "message": "You joined this group."
-      },
-      "leave": {
-        "title": "Left successfully!",
-        "message": "You left this group."
-      }
-    },
-    "event": {
-      "create": {
-        "title": "Created event!",
-        "message": "A new event has been created."
-      },
-      "delete": {
-        "title": "Deleted event!",
-        "message": "The event has been deleted."
-      },
-      "update": {
-        "title": "Updated event!",
-        "message": "The event has been modified."
-      },
-      "failedToUpdate": {
-        "title": "Could not update event!",
-        "message": "Event must not start in the past!"
-      },
-      "participation": {
-        "title": "Updated participation!",
-        "message": "Your participation status has been modified."
-      },
-      "image": {
-        "success": {
-          "title": "Updated event image!",
-          "message": "Event image has been modified."
+    "navbar": {
+        "feed": {
+            "label": "Feed",
+            "title": "Here you can see the latest events."
         },
-        "error": {
-          "title": "Failed to update event image!",
-          "message": "The uploaded image exceeds the 2MB limit."
-        }
-      }
-    },
-    "comment": {
-      "delete": {
-        "title": "Deleted comment!",
-        "message": "The comment has been deleted."
-      },
-      "create": {
-        "title": "Created comment!",
-        "message": "A new comment has been created."
-      },
-      "update": {
-        "title": "Updated comment!",
-        "message": "The comment has been modified."
-      }
-    },
-    "profile": {
-      "update": {
-        "title": "Updated profile!",
-        "message": "Your profile has been modified."
-      },
-      "image": {
-        "success": {
-          "title": "Updated profile image!",
-          "message": "Your profile image has been modified."
+        "calendar": {
+            "label": "Calendar",
+            "title": "Here you can view your participated events in the calendar."
         },
-        "error": {
-          "title": "Failed to update profile image!",
-          "message": "The uploaded image exceeds the 1MB limit."
+        "map": {
+            "label": "Map",
+            "title": "Here you can view nearby events on the map."
+        },
+        "events": {
+            "label": "Events",
+            "title": "Here you can sort, filter, search events."
+        },
+        "groups": {
+            "label": "Groups",
+            "title": "Here you can sort, filter, search groups."
+        },
+        "users": {
+            "label": "Users",
+            "title": "Here you can sort, filter, search users."
+        },
+        "controlPanel": {
+            "label": "Control Panel",
+            "title": "Here you can manage your events, groups and comments."
+        },
+        "profile": {
+            "title": "Here you can modify your user data."
         }
-      }
     },
-    "joinRequest": {
-      "create": {
-        "title": "Created join request!",
-        "message": "Successfully created join request."
-      },
-      "delete": {
-        "title": "Deleted join request!",
-        "message": "Successfully deleted join request."
-      },
-      "accept": {
-        "title": "User accepted!",
-        "message": "User is now a group member."
-      },
-      "decline": {
-        "title": "User declined!",
-        "message": "Join request was declined."
-      }
+    "button": {
+        "logout": "Logout",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "reset": "Reset",
+        "submit": "Submit",
+        "richText": "Format Text"
+    },
+    "resource": {
+        "calendar": "Calendar",
+        "comments": "Comments",
+        "eventDetails": "Event Details",
+        "feed": "Feed",
+        "events": "Events",
+        "myEvents": "My Events",
+        "profile": "Profile",
+        "userDetails": "User Details",
+        "users": "Users",
+        "groups": "Groups",
+        "groupDetails": "Group Details",
+        "chat": "Group Chat",
+        "rating": "Rating",
+        "freeIntervals": "Free Intervals"
+    },
+    "notification": {
+        "message": {
+            "sent": {
+                "title": "Message Sent!",
+                "message": "You sent a new message to the group."
+            }
+        },
+        "group": {
+            "create": {
+                "title": "Created group!",
+                "message": "A new group has been created."
+            },
+            "delete": {
+                "title": "Deleted group!",
+                "message": "The group has been deleted."
+            },
+            "update": {
+                "title": "Updated group!",
+                "message": "The group has been modified."
+            },
+            "join": {
+                "title": "Joined successfully!",
+                "message": "You joined this group."
+            },
+            "leave": {
+                "title": "Left successfully!",
+                "message": "You left this group."
+            }
+        },
+        "event": {
+            "create": {
+                "title": "Created event!",
+                "message": "A new event has been created."
+            },
+            "delete": {
+                "title": "Deleted event!",
+                "message": "The event has been deleted."
+            },
+            "update": {
+                "title": "Updated event!",
+                "message": "The event has been modified."
+            },
+            "failedToUpdate": {
+                "title": "Could not update event!",
+                "message": "Event must not start in the past!"
+            },
+            "participation": {
+                "title": "Updated participation!",
+                "message": "Your participation status has been modified."
+            },
+            "image": {
+                "success": {
+                    "title": "Updated event image!",
+                    "message": "Event image has been modified."
+                },
+                "error": {
+                    "title": "Failed to update event image!",
+                    "message": "The uploaded image exceeds the 2MB limit."
+                }
+            }
+        },
+        "comment": {
+            "delete": {
+                "title": "Deleted comment!",
+                "message": "The comment has been deleted."
+            },
+            "create": {
+                "title": "Created comment!",
+                "message": "A new comment has been created."
+            },
+            "update": {
+                "title": "Updated comment!",
+                "message": "The comment has been modified."
+            }
+        },
+        "profile": {
+            "update": {
+                "title": "Updated profile!",
+                "message": "Your profile has been modified."
+            },
+            "image": {
+                "success": {
+                    "title": "Updated profile image!",
+                    "message": "Your profile image has been modified."
+                },
+                "error": {
+                    "title": "Failed to update profile image!",
+                    "message": "The uploaded image exceeds the 1MB limit."
+                }
+            }
+        },
+        "joinRequest": {
+            "create": {
+                "title": "Created join request!",
+                "message": "Successfully created join request."
+            },
+            "delete": {
+                "title": "Deleted join request!",
+                "message": "Successfully deleted join request."
+            },
+            "accept": {
+                "title": "User accepted!",
+                "message": "User is now a group member."
+            },
+            "decline": {
+                "title": "User declined!",
+                "message": "Join request was declined."
+            }
+        }
+    },
+    "modal": {
+        "users": {
+            "members": "Members",
+            "participants": "Participants"
+        },
+        "group": {
+            "edit": "Edit Group",
+            "create": "Create Group",
+            "delete": {
+                "title": "Delete Group",
+                "message": "Are you sure you want to delete this group?"
+            }
+        },
+        "event": {
+            "edit": "Edit Event",
+            "create": "Create Event",
+            "delete": {
+                "title": "Delete Event",
+                "message": "Are you sure you want to delete this event?"
+            }
+        },
+        "comment": {
+            "create": "Create Comment",
+            "edit": "Edit Comment",
+            "delete": {
+                "title": "Delete Comment",
+                "message": "Are you sure you want to delete this comment?"
+            }
+        },
+        "edit": "Edit {{propertyName}}"
+    },
+    "common": {
+        "name": "Name",
+        "location": "Location",
+        "price": "Price",
+        "date": "Date",
+        "orderBy": "Order by",
+        "free": "Free"
+    },
+    "myEvents": {
+        "dateTime": "Date and Time",
+        "limit": "Limit",
+        "actions": "Actions",
+        "noRecords": "No events found",
+        "recordsPerPage": "Events per page",
+        "archive": "Archive",
+        "creator": "Creator",
+        "group": "Group"
+    },
+    "groupTable": {
+        "noRecords": "No groups found",
+        "recordsPerPage": "Groups per page",
+        "createdAt": "Creation Date",
+        "colors": "Group Colors",
+        "visibility": "Visibility"
+    },
+    "commentTable": {
+        "noRecords": "No comments found",
+        "recordsPerPage": "Comments per page",
+        "postedAt": "Post Date",
+        "message": "Message",
+        "event": "Event"
+    },
+    "userTable": {
+        "noRecords": "No users found",
+        "recordsPerPage": "Users per page",
+        "image": "Profile Image"
+    },
+    "filterEvents": {
+        "search": "Search by Name",
+        "limited": "Limited",
+        "filter": "Filter by Attributes"
+    },
+    "usersPage": {
+        "search": "Search by Name"
+    },
+    "userDetails": {
+        "createdEvents": "Created Events",
+        "participatedEvents": "Participated Events"
+    },
+    "groupDetails": {
+        "join": "Join Group",
+        "leave": "Leave Group",
+        "private": "This group is private",
+        "public": "This group is public"
+    },
+    "eventDetails": {
+        "participate": "Participate",
+        "removeParticipation": "Remove participation",
+        "participants": "Participants",
+        "modifyImages": "Modify Images"
+    },
+    "queryComponent": {
+        "error": "An error occurred while fetching {{resourceName}}!"
+    },
+    "themeColorPicker": {
+        "label": "Theme Color"
+    },
+    "color": {
+        "red": "Red",
+        "pink": "Pink",
+        "grape": "Grape",
+        "violet": "Violet",
+        "indigo": "Indigo",
+        "blue": "Blue",
+        "cyan": "Cyan",
+        "teal": "Teal",
+        "green": "Green",
+        "lime": "Lime",
+        "yellow": "Yellow",
+        "orange": "Orange"
+    },
+    "profileForm": {
+        "introduction": "Introduction",
+        "displayName": {
+            "error": "Name is required!",
+            "label": "Name",
+            "placeholder": "Other users will see this name."
+        },
+        "location": {
+            "placeholder": "Where do you stay?",
+            "description": "This is used to filter events by distance. Only you can see this information."
+        },
+        "image": {
+            "label": "Profile Image",
+            "placeholder": "You can set your profile image here.",
+            "error": "Invalid image URL!",
+            "button": "Choose Image",
+            "allowedContent": "Image ({{size}}MB)",
+            "remove": {
+                "title": "Remove Image",
+                "message": "Would you like to remove your profile image?"
+            }
+        },
+        "delete": {
+            "title": "Delete Profile",
+            "message": "This will permanently remove your profile with all of its associated data from our database.",
+            "warning": "None of the data can be recovered after deletion!",
+            "dangerZone": "Danger Zone"
+        }
+    },
+    "mapComponent": {
+        "error": "An error occurred while loading map!"
+    },
+    "locationPicker": {
+        "error": "An error occurred while loading places!",
+        "remove": "Remove Residence",
+        "residence": "Residence",
+        "place": "Place"
+    },
+    "intervalPicker": {
+        "start": "Start",
+        "end": "End"
+    },
+    "groupForm": {
+        "name": {
+            "error": "Name is required!",
+            "placeholder": "What is the group called?"
+        },
+        "description": {
+            "label": "Description",
+            "placeholder": "Tell us about this group."
+        },
+        "colors": {
+            "error": "Group colors must be distinct!"
+        },
+        "isPrivate": {
+            "label": "Private",
+            "description": "Creator must accept each user's join request when the group is private."
+        }
+    },
+    "eventForm": {
+        "group": {
+            "label": "Group",
+            "placeholder": "Which group's event will it be?"
+        },
+        "name": {
+            "error": "Name is required!",
+            "placeholder": "What is the event called?"
+        },
+        "location": {
+            "error": "Location is required!",
+            "placeholder": "Where will it take place?"
+        },
+        "start": {
+            "error": "Invalid start!"
+        },
+        "end": {
+            "error": "Invalid end!"
+        },
+        "description": {
+            "label": "Description",
+            "placeholder": "What are the plans?"
+        },
+        "price": {
+            "label": "Price",
+            "placeholder": "Do participants need to pay for it?"
+        },
+        "limit": {
+            "label": "Limit",
+            "placeholder": "Is there a maximum number of participants?"
+        }
+    },
+    "commentForm": {
+        "addComment": "Add comment..."
+    },
+    "messageForm": {
+        "addMessage": "Send message..."
+    },
+    "richTextDisplay": {
+        "showLabel": "Show more",
+        "hideLabel": "Show less"
+    },
+    "feedPage": {
+        "maxDistance": "Maximum Distance:",
+        "useMaxDistance": "Use Maximum Distance",
+        "slider": "Maximum Distance",
+        "includeArchive": "Include Archive",
+        "myGroupsOnly": "My Groups Only"
+    },
+    "calendarPage": {
+        "today": "Today",
+        "month": "Month",
+        "week": "Week",
+        "export": "Export",
+        "iCalExport": "Export to iCal",
+        "interval": {
+            "label": "Interval",
+            "error": "Invalid Interval!"
+        },
+        "eventCount": "{{count}} Events"
+    },
+    "intervalRecommender": {
+        "label": "Interval Recommender",
+        "searchInterval": "Search Interval"
+    },
+    "usersComponent": {
+        "full": "Event is full!"
+    },
+    "joinRequestsDialog": {
+        "resourceName": "Join Requests",
+        "accept": "Accept",
+        "decline": "Decline",
+        "review": "Review Join Requests"
+    },
+    "mapPage": {
+        "absentPermission1": "To access this feature either give permission to your location or set your Residence on your",
+        "absentPermission2": "!"
     }
-  },
-  "modal": {
-    "users": {
-      "members": "Members",
-      "participants": "Participants"
-    },
-    "group": {
-      "edit": "Edit Group",
-      "create": "Create Group",
-      "delete": {
-        "title": "Delete Group",
-        "message": "Are you sure you want to delete this group?"
-      }
-    },
-    "event": {
-      "edit": "Edit Event",
-      "create": "Create Event",
-      "delete": {
-        "title": "Delete Event",
-        "message": "Are you sure you want to delete this event?"
-      }
-    },
-    "comment": {
-      "create": "Create Comment",
-      "edit": "Edit Comment",
-      "delete": {
-        "title": "Delete Comment",
-        "message": "Are you sure you want to delete this comment?"
-      }
-    },
-    "edit": "Edit {{propertyName}}"
-  },
-  "common": {
-    "name": "Name",
-    "location": "Location",
-    "price": "Price",
-    "date": "Date",
-    "orderBy": "Order by",
-    "free": "Free"
-  },
-  "myEvents": {
-    "dateTime": "Date and Time",
-    "limit": "Limit",
-    "actions": "Actions",
-    "noRecords": "No events found",
-    "recordsPerPage": "Events per page",
-    "archive": "Archive",
-    "creator": "Creator",
-    "group": "Group"
-  },
-  "groupTable": {
-    "noRecords": "No groups found",
-    "recordsPerPage": "Groups per page",
-    "createdAt": "Creation Date",
-    "colors": "Group Colors",
-    "visibility": "Visibility"
-  },
-  "commentTable": {
-    "noRecords": "No comments found",
-    "recordsPerPage": "Comments per page",
-    "postedAt": "Post Date",
-    "message": "Message",
-    "event": "Event"
-  },
-  "userTable": {
-    "noRecords": "No users found",
-    "recordsPerPage": "Users per page",
-    "image": "Profile Image"
-  },
-  "filterEvents": {
-    "search": "Search by Name",
-    "limited": "Limited",
-    "filter": "Filter by Attributes"
-  },
-  "usersPage": {
-    "search": "Search by Name"
-  },
-  "userDetails": {
-    "createdEvents": "Created Events",
-    "participatedEvents": "Participated Events"
-  },
-  "groupDetails": {
-    "join": "Join Group",
-    "leave": "Leave Group",
-    "private": "This group is private",
-    "public": "This group is public"
-  },
-  "eventDetails": {
-    "participate": "Participate",
-    "removeParticipation": "Remove participation",
-    "participants": "Participants",
-    "modifyImages": "Modify Images"
-  },
-  "queryComponent": {
-    "error": "An error occurred while fetching {{resourceName}}!"
-  },
-  "themeColorPicker": {
-    "label": "Theme Color"
-  },
-  "color": {
-    "red": "Red",
-    "pink": "Pink",
-    "grape": "Grape",
-    "violet": "Violet",
-    "indigo": "Indigo",
-    "blue": "Blue",
-    "cyan": "Cyan",
-    "teal": "Teal",
-    "green": "Green",
-    "lime": "Lime",
-    "yellow": "Yellow",
-    "orange": "Orange"
-  },
-  "profileForm": {
-    "introduction": "Introduction",
-    "displayName": {
-      "error": "Name is required!",
-      "label": "Name",
-      "placeholder": "Other users will see this name."
-    },
-    "location": {
-      "placeholder": "Where do you stay?",
-      "description": "This is used to filter events by distance. Only you can see this information."
-    },
-    "image": {
-      "label": "Profile Image",
-      "placeholder": "You can set your profile image here.",
-      "error": "Invalid image URL!",
-      "button": "Choose Image",
-      "allowedContent": "Image ({{size}}MB)",
-      "remove": {
-        "title": "Remove Image",
-        "message": "Would you like to remove your profile image?"
-      }
-    },
-    "delete": {
-      "title": "Delete Profile",
-      "message": "This will permanently remove your profile with all of its associated data from our database.",
-      "warning": "None of the data can be recovered after deletion!",
-      "dangerZone": "Danger Zone"
-    }
-  },
-  "mapComponent": {
-    "error": "An error occurred while loading map!"
-  },
-  "locationPicker": {
-    "error": "An error occurred while loading places!",
-    "remove": "Remove Residence",
-    "residence": "Residence",
-    "place": "Place"
-  },
-  "intervalPicker": {
-    "start": "Start",
-    "end": "End"
-  },
-  "groupForm": {
-    "name": {
-      "error": "Name is required!",
-      "placeholder": "What is the group called?"
-    },
-    "description": {
-      "label": "Description",
-      "placeholder": "Tell us about this group."
-    },
-    "colors": {
-      "error": "Group colors must be distinct!"
-    },
-    "isPrivate": {
-      "label": "Private",
-      "description": "Creator must accept each user's join request when the group is private."
-    }
-  },
-  "eventForm": {
-    "group": {
-      "label": "Group",
-      "placeholder": "Which group's event will it be?"
-    },
-    "name": {
-      "error": "Name is required!",
-      "placeholder": "What is the event called?"
-    },
-    "location": {
-      "error": "Location is required!",
-      "placeholder": "Where will it take place?"
-    },
-    "start": {
-      "error": "Invalid start!"
-    },
-    "end": {
-      "error": "Invalid end!"
-    },
-    "description": {
-      "label": "Description",
-      "placeholder": "What are the plans?"
-    },
-    "price": {
-      "label": "Price",
-      "placeholder": "Do participants need to pay for it?"
-    },
-    "limit": {
-      "label": "Limit",
-      "placeholder": "Is there a maximum number of participants?"
-    }
-  },
-  "commentForm": {
-    "addComment": "Add comment..."
-  },
-  "messageForm": {
-    "addMessage": "Send message..."
-  },
-  "richTextDisplay": {
-    "showLabel": "Show more",
-    "hideLabel": "Show less"
-  },
-  "feedPage": {
-    "maxDistance": "Maximum Distance:",
-    "useMaxDistance": "Use Maximum Distance",
-    "slider": "Maximum Distance",
-    "includeArchive": "Include Archive",
-    "myGroupsOnly": "My Groups Only"
-  },
-  "calendarPage": {
-    "today": "Today",
-    "month": "Month",
-    "week": "Week",
-    "export": "Export",
-    "iCalExport": "Export to iCal",
-    "interval": {
-      "label": "Interval",
-      "error": "Invalid Interval!"
-    },
-    "eventCount": "{{count}} Events"
-  },
-  "intervalRecommender": {
-    "label": "Interval Recommender",
-    "searchInterval": "Search Interval"
-  },
-  "usersComponent": {
-    "full": "Event is full!"
-  },
-  "joinRequestsDialog": {
-    "resourceName": "Join Requests",
-    "accept": "Accept",
-    "decline": "Decline",
-    "review": "Review Join Requests"
-  },
-  "mapPage": {
-    "absentPermission1": "To access this feature either give permission to your location or set your Residence on your",
-    "absentPermission2": "!"
-  }
 }
